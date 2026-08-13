@@ -13,7 +13,7 @@ bool Options::debugGl = false;
 
 OptionInt difficulty("difficulty", Difficulty::NORMAL, 0, Difficulty::COUNT);
 OptionBool hidegui("hidegui", false);
-OptionBool thirdPersonView("thirdperson", false);
+OptionInt thirdPersonView("thirdperson", 0, 0, 2); // 0: first person, 1: third person back, 2: third person front
 OptionBool renderDebug("renderDebug", false);
 OptionBool smoothCamera("smoothCamera", false);
 OptionBool fixedCamera("fixedCamera", false);
