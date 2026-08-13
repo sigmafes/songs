@@ -1,0 +1,14 @@
+# Target labels
+ openal-populate
+# Source files and their labels
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/CMakeFiles/openal-populate
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/CMakeFiles/openal-populate.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/CMakeFiles/openal-populate-complete.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/openal-populate-prefix/src/openal-populate-stamp/openal-populate-build.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/openal-populate-prefix/src/openal-populate-stamp/openal-populate-configure.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/openal-populate-prefix/src/openal-populate-stamp/openal-populate-download.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/openal-populate-prefix/src/openal-populate-stamp/openal-populate-install.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/openal-populate-prefix/src/openal-populate-stamp/openal-populate-mkdir.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/openal-populate-prefix/src/openal-populate-stamp/openal-populate-patch.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/openal-populate-prefix/src/openal-populate-stamp/openal-populate-test.rule
+C:/Users/mafes/Desktop/loro/build/_deps/openal-subbuild/openal-populate-prefix/src/openal-populate-stamp/openal-populate-update.rule

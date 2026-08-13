@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "_deps\\openal-build\\CMakeFiles\\OpenAL.dir\\core\\hrtf.cpp.o"
+    }
+  ],
+  "version": 1
+}

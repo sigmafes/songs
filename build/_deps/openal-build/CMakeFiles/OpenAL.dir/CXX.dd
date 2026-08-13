@@ -1,0 +1,183 @@
+ninja_dyndep_version = 1.0
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/alcomplex.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/almalloc.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/alstring.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/althrd_setname.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/dynload.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/filesystem.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/pffft.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/polyphase_resampler.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/common/strutils.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/auxeffectslot.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/buffer.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/debug.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effect.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/autowah.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/chorus.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/compressor.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/convolution.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/dedicated.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/distortion.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/echo.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/effects.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/equalizer.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/fshifter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/modulator.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/null.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/pshifter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/reverb.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/vmorpher.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/error.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/event.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/extension.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/filter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/listener.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/source.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/al/state.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/alc.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/alu.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/alconfig.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/context.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/device.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/autowah.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/chorus.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/compressor.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/convolution.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/dedicated.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/distortion.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/echo.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/equalizer.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/fshifter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/modulator.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/null.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/pshifter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/reverb.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/vmorpher.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/events.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/panning.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/backends/base.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/backends/loopback.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/backends/null.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/ambdec.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/bs2b.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/context.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/converter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/cubic_tables.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/devformat.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/device.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/effectslot.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/except.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/helpers.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/hrtf.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/hrtf_loader.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/hrtf_resource.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/logging.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/mastering.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/mixer.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/storage_formats.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/tsmefilter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/voice.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o: dyndep
+
+build _deps/openal-build/CMakeFiles/OpenAL.dir/core/mixer/mixer_neon.cpp.o: dyndep
+

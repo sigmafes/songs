@@ -1,0 +1,505 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "RelWithDebInfo",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-build",
+	"dir-cur-src" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src",
+	"dir-top-bld" : "C:/Users/mafes/Desktop/loro/build",
+	"dir-top-src" : "C:/Users/mafes/Desktop/loro",
+	"exports" : 
+	[
+		{
+			"cxx-module-info-dir" : "",
+			"destination" : "lib/cmake/OpenAL",
+			"export-name" : "OpenAL",
+			"export-prefix" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-build/CMakeFiles/Export/7997f1405615f9851461070a24c70e81",
+			"filesystem-export-name" : "OpenAL",
+			"install" : true,
+			"namespace" : "OpenAL::"
+		},
+		{
+			"cxx-module-info-dir" : "",
+			"destination" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-build",
+			"export-name" : "OpenAL",
+			"export-prefix" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-build",
+			"filesystem-export-name" : "OpenAL",
+			"install" : false,
+			"namespace" : "OpenAL::"
+		}
+	],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"_deps\\openal-src\\gsl\\include",
+		"_deps\\openal-src\\include",
+		"_deps\\openal-build",
+		"_deps\\openal-src",
+		"_deps\\openal-src\\common",
+		"_deps\\openal-src\\fmt-11.2.0\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-build/CMakeFiles/OpenAL.dir",
+	"sources" : 
+	{
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/auxeffectslot.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/auxeffectslot.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/buffer.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/buffer.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/debug.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/debug.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effect.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effect.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/autowah.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/autowah.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/chorus.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/chorus.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/compressor.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/compressor.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/convolution.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/convolution.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/dedicated.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/dedicated.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/distortion.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/distortion.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/echo.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/echo.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/effects.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/effects.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/equalizer.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/equalizer.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/fshifter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/fshifter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/modulator.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/modulator.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/null.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/null.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/pshifter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/pshifter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/reverb.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/reverb.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/effects/vmorpher.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/effects/vmorpher.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/error.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/error.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/event.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/event.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/extension.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/extension.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/filter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/filter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/listener.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/listener.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/source.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/source.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/al/state.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/al/state.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/alc.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/alc.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/alconfig.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/alconfig.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/alu.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/alu.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/backends/base.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/backends/base.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/backends/loopback.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/backends/loopback.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/backends/null.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/backends/null.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/backends/wave.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/context.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/context.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/device.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/device.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/autowah.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/autowah.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/chorus.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/chorus.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/compressor.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/compressor.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/convolution.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/convolution.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/dedicated.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/dedicated.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/distortion.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/distortion.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/echo.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/echo.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/equalizer.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/equalizer.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/fshifter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/fshifter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/modulator.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/modulator.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/null.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/null.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/pshifter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/pshifter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/reverb.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/reverb.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/effects/vmorpher.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/effects/vmorpher.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/events.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/events.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/alc/panning.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/alc/panning.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/alcomplex.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/alcomplex.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/almalloc.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/almalloc.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/alstring.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/alstring.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/althrd_setname.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/althrd_setname.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/dynload.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/dynload.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/filesystem.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/filesystem.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/pffft.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/pffft.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/polyphase_resampler.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/polyphase_resampler.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/common/strutils.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/strutils.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/ambdec.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/ambdec.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/ambidefs.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/bformatdec.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/bs2b.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/bs2b.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/bsinc_tables.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/context.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/context.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/converter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/converter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/cpu_caps.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/cubic_tables.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/cubic_tables.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/devformat.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/devformat.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/device.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/device.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/effectslot.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/effectslot.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/except.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/except.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/filters/biquad.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/filters/nfc.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/filters/splitter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/fpu_ctrl.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/helpers.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/helpers.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/hrtf.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/hrtf.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/hrtf_loader.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/hrtf_loader.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/hrtf_resource.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/hrtf_resource.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/logging.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/logging.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/mastering.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/mastering.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/mixer.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/mixer.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/mixer/mixer_c.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/mixer/mixer_neon.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/mixer/mixer_neon.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/storage_formats.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/storage_formats.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/tsmefilter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/tsmefilter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/uhjfilter.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/uiddefs.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/OpenAL.dir/core/voice.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/core/voice.cpp"
+		}
+	}
+}

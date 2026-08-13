@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/mafes/Desktop/loro/build/cmake_install.cmake",
+		"C:/Users/mafes/Desktop/loro/build/_deps/openal-build/cmake_install.cmake",
+		"C:/Users/mafes/Desktop/loro/build/_deps/openal-build/fmt-11.2.0/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

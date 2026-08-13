@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "_deps\\openal-build\\CMakeFiles\\OpenAL.dir\\alc\\backends\\wave.cpp.o"
+    }
+  ],
+  "version": 1
+}

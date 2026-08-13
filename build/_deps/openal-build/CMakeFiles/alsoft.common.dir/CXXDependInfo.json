@@ -1,0 +1,74 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "RelWithDebInfo",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-build",
+	"dir-cur-src" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src",
+	"dir-top-bld" : "C:/Users/mafes/Desktop/loro/build",
+	"dir-top-src" : "C:/Users/mafes/Desktop/loro",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"_deps\\openal-src\\include",
+		"_deps\\openal-build",
+		"_deps\\openal-src\\common",
+		"_deps\\openal-src\\gsl\\include",
+		"_deps\\openal-src\\fmt-11.2.0\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-build/CMakeFiles/alsoft.common.dir",
+	"sources" : 
+	{
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/alcomplex.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/alcomplex.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/almalloc.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/almalloc.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/alstring.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/alstring.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/althrd_setname.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/althrd_setname.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/dynload.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/dynload.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/filesystem.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/filesystem.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/pffft.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/pffft.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/polyphase_resampler.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/polyphase_resampler.cpp"
+		},
+		"_deps/openal-build/CMakeFiles/alsoft.common.dir/common/strutils.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/mafes/Desktop/loro/build/_deps/openal-src/common/strutils.cpp"
+		}
+	}
+}
