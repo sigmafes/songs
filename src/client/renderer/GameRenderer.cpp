@@ -455,7 +455,7 @@ void GameRenderer::moveCameraToPlayer(float a) {
 	float heightOffset = player->heightOffset - 1.62f;
 
 	float x = player->xo + (player->x - player->xo) * a;
-	float y = player->yo + (player->y - player->yo) * a - heightOffset;
+	float y = player->yo + (player->y - player->yo) * a;
 	//printf("camera y: %f\n", y);
 	float z = player->zo + (player->z - player->zo) * a;
 
@@ -480,6 +480,10 @@ void GameRenderer::moveCameraToPlayer(float a) {
 	} else if (mc->options.getIntValue(OPTIONS_THIRD_PERSON_VIEW) > 0 /*|| (player->isPlayer() && !player->isAlive())*/) {
 		float cameraDist = thirdDistanceO + (thirdDistance - thirdDistanceO) * a;
 		bool frontView = mc->options.getIntValue(OPTIONS_THIRD_PERSON_VIEW) == 2;
+
+		// En 3ra persona, apuntar a la cabeza del jugador
+		float headHeight = 1.62f;
+		y += headHeight;
 
 		if (mc->options.getBooleanValue(OPTIONS_FIXED_CAMERA)) {
 
