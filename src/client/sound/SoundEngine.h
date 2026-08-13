@@ -5,8 +5,12 @@
 
 #if defined(ANDROID) && !defined(PRE_ANDROID23)
 	#include "../../platform/audio/SoundSystemSL.h"
-#elif (defined(__APPLE__) || defined(PLATFORM_DESKTOP)) && !defined(NO_SOUND)
+#elif (defined(__APPLE__) || defined(PLATFORM_DESKTOP) || defined(PLATFORM_WEB)) && !defined(NO_SOUND)
+#if defined(PLATFORM_WEB)
+	#include "../../platform/audio/SoundSystemWeb.h"
+#else
     #include "../../platform/audio/SoundSystemAL.h"
+#endif
 #else
 	#include "../../platform/audio/SoundSystem.h"
 #endif
@@ -23,8 +27,12 @@ class SoundEngine
 
 	#if defined(ANDROID) && !defined(PRE_ANDROID23) && !defined(RPI)
 		SoundSystemSL soundSystem;
-    #elif (defined(__APPLE__) || defined(PLATFORM_DESKTOP)) && !defined(NO_SOUND)
+	#elif (defined(__APPLE__) || defined(PLATFORM_DESKTOP) || defined(PLATFORM_WEB)) && !defined(NO_SOUND)
+#if defined(PLATFORM_WEB)
+		SoundSystemWeb soundSystem;
+#else
         SoundSystemAL soundSystem;
+#endif
 	#else
 	    SoundSystem soundSystem;
 	#endif

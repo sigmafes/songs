@@ -36,9 +36,27 @@
   }
 
   window.addEventListener('resize', resizeCanvas);
-  window.addEventListener('onunload', () => {
-    FS.syncfs(true, function (err) { console.log('Sync FS failed: ' + err) });
-  })
+
+  function syncPersistentStorage() {
+    if (typeof FS === 'undefined') return;
+    FS.syncfs(false, function (err) {
+      if (err) console.error('Sync FS failed: ' + err);
+    });
+  }
+
+  function unlockAudio() {
+    if (Module.webAudioContext && Module.webAudioContext.state === 'suspended') {
+      Module.webAudioContext.resume();
+    }
+  }
+
+  setInterval(syncPersistentStorage, 1000);
+  window.addEventListener('pagehide', syncPersistentStorage);
+  window.addEventListener('pointerdown', unlockAudio, { once: true });
+  window.addEventListener('keydown', unlockAudio, { once: true });
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'hidden') syncPersistentStorage();
+  });
 </script>
 
 <script src="MinecraftPE.js"></script>

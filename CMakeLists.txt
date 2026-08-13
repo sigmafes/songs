@@ -254,7 +254,6 @@ file(GLOB CLIENT_SOURCES
     "src/network/command/*.cpp"
 
     "src/platform/*.cpp"
-    "src/platform/audio/SoundSystemAL.cpp"
     "src/platform/input/*.cpp"
 
     "src/raknet/**.cpp"
@@ -308,6 +307,12 @@ if (${PLATFORM} STREQUAL "Desktop")
     list(APPEND CLIENT_SOURCES glad/src/glad.c)
 endif()
 
+if (${PLATFORM} STREQUAL "Web")
+    list(APPEND CLIENT_SOURCES "src/platform/audio/SoundSystemWeb.cpp")
+else()
+    list(APPEND CLIENT_SOURCES "src/platform/audio/SoundSystemAL.cpp")
+endif()
+
 # Server
 add_executable("${PROJECT_NAME}-server" ${SERVER_SOURCES})
 
@@ -359,7 +364,6 @@ if(${PLATFORM} MATCHES "Web")
         "-sFORCE_FILESYSTEM=1"
         "-sLEGACY_GL_EMULATION=1"
         "-sGL_UNSAFE_OPTS=0"
-        "-sEMULATE_FUNCTION_POINTER_CASTS=1"
         "-sALLOW_TABLE_GROWTH=1"
         "-sEXPORTED_RUNTIME_METHODS=['FS','stringToUTF8','UTF8ToString','cwrap','ccall','HEAP8','HEAPU8','HEAP32','HEAPU32']"
         "-sEXPORTED_FUNCTIONS=['_main']"
@@ -376,7 +380,7 @@ if(${PLATFORM} MATCHES "Web")
         )
     endif()
 
-    target_compile_definitions(${PROJECT_NAME} PUBLIC "__EMSCRIPTEN__" "NO_SOUND" "NO_NETWORK")
+    target_compile_definitions(${PROJECT_NAME} PUBLIC "__EMSCRIPTEN__" "NO_NETWORK")
 endif()
 
 # Client
