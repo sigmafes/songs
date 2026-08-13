@@ -477,7 +477,7 @@ void GameRenderer::moveCameraToPlayer(float a) {
 			glRotatef(player->yRotO + (player->yRot - player->yRotO) * a + 180, 0, -1, 0);
 			glRotatef(player->xRotO + (player->xRot - player->xRotO) * a, -1, 0, 0);
 		}
-	} else if (mc->options.getIntValue(OPTIONS_THIRD_PERSON_VIEW) > 0)/* || (player->isPlayer() && !player->isAlive())*/) {
+	} else if (mc->options.getIntValue(OPTIONS_THIRD_PERSON_VIEW) > 0 /*|| (player->isPlayer() && !player->isAlive())*/) {
 		float cameraDist = thirdDistanceO + (thirdDistance - thirdDistanceO) * a;
 		bool frontView = mc->options.getIntValue(OPTIONS_THIRD_PERSON_VIEW) == 2;
 
