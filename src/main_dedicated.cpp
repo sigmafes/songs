@@ -93,7 +93,7 @@ int main(int numArguments, char* pszArgs[]) {
 		port = std::stoi(findStringInConfig("port", propString));
 		worldSize = std::stoi(findStringInConfig("world-size", propString));
 
-		if (worldSize < 16 || worldSize > 32) {
+		if (worldSize < 16 || worldSize > 128) {
 			throw std::runtime_error("Incorrect world size.");
 		}
 
